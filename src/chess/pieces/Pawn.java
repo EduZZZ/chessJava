@@ -64,6 +64,12 @@ public class Pawn extends ChessPiece {
 
 			
 		}
-		return null;
+		return mat;
 	}
+
+	@Override
+	public String toString() {
+		return "P";
+	}
+	
 }
